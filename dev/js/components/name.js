@@ -5,7 +5,7 @@ var ReactDOM = require('react-dom');
 var NameRecord = React.createClass({
   render:function(){
     return (
-    	<div className="NameRecord"
+    	<div className="NameRecord">
     		<input type="Text" placeholder="Name" name="Name"/>
     		</div>
     )}

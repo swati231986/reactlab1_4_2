@@ -1,10 +1,10 @@
 /** @jsx React.DOM */
 var React = require('react');
 var ReactDOM = require('react-dom');
-var email = require('./components/email.js');
-var zipcode = require('./components/Roger.js');
-var name = require('./components/name.js');
-var phone = require('./components/phone.js');
+var Email = require('./email.js');
+var Zipcode = require('./Roger.js');
+var Name = require('./name.js');
+var Phone = require('./phone.js');
 
 var ContactForm = React.createClass({
     handleClick:function(){
@@ -15,11 +15,11 @@ var ContactForm = React.createClass({
         <div className="wrapper">
         <form>
           <h1>My Contact Form</h1>
-          <name/>
-          <email/>
-          <phone/>
-          <zipcode/>
-          <input type="submit" value="Submit">
+          <Name/> 
+          <Email/>
+          <Phone/> 
+          <Zipcode/>
+          <input type="submit" value="Submit"/>
           </form>
         </div>
       )}

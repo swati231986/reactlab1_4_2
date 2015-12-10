@@ -15,7 +15,10 @@ module.exports = function(grunt){
         main: {
            files: [
            // Copy HTML
-           {expand: true, flatten: true, src:['dev/index.html'], dest: 'dist/',filter:'isFile'},] }
+           {expand: true, flatten: true, src:['dev/index.html'], dest: 'dist/',filter:'isFile'},
+           // Copy CSS
+            {expand: true, flatten: true, src: ['dev/css/**'], dest: 'dist/css', filter: 'isFile'}
+            ] }
       }, 
   }); 
   grunt.loadNpmTasks('grunt-contrib-copy');

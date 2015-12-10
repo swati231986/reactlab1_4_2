@@ -14,4 +14,4 @@ var Phone = React.createClass({
       )}
   });
 
-module.exports = phone;
+module.exports = Phone;
