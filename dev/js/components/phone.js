@@ -9,7 +9,7 @@ var Phone = React.createClass({
     render:function(){
       return (
         <div className="PhoneNumber">
-        ￼￼<input type="text" placeholder="phoneNumber" name="phoneNumber" min="90000" max="99999"/>
+        ￼￼<input type="text" placeholder="phoneNumber" name="phoneNumber" />
         </div>
       )}
   });
