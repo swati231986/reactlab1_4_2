@@ -15,11 +15,11 @@ var ContactForm = React.createClass({
         <div className="wrapper">
         <form>
           <h1>My Contact Form</h1>
-          <Name/> 
+          <Name/>
           <Email/>
-          <Phone/> 
+          <Phone/>
           <Zipcode/>
-          <input type="submit" value="Submit"/>
+          <input className ="submit" type="submit" value="Submit"/>
           </form>
         </div>
       )}
