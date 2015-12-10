@@ -9,7 +9,7 @@ var Roger = React.createClass({
     render:function(){
       return (
         <div className="roger">
-        ￼￼<input type="number" placeholder="Zip Code" name="zipcode" min="90000" max="99999"/>
+            <input type="text" placeholder="Zip Code" name="zipcode"/>
         </div>
       )}
   });
