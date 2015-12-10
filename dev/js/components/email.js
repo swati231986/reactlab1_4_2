@@ -2,7 +2,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Email = React.createClass({
+var foo = React.createClass({
   
     render:function(){
       return (
@@ -12,4 +12,4 @@ var Email = React.createClass({
       )}
   });
 
-module.exports = Email;
+module.exports = foo;
